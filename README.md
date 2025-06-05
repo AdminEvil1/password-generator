@@ -66,4 +66,4 @@ Oder lade direkt die .exe-Datei herunter (keine Installation von Python nötig):
 
 ## 📝 Lizenz
 
-Dieses Projekt ist unter der MIT Lizenz verfügbar.
+Dieses Projekt steht unter der MIT Lizenz verfügbar.
