@@ -21,6 +21,18 @@ Du kannst selbst bestimmen:
 
 5. Mit „Passwort kopieren“ landet es direkt in deiner Zwischenablage
 
+⚠️ Hinweis für Windows/AVG-Nutzer
+
+Die `.exe`-Datei wurde mit PyInstaller erstellt und ist sicher.  
+Einige Antivirenprogramme (z. B. AVG oder Windows Defender) könnten sie fälschlich als Bedrohung einstufen (False Positive).
+
+Wenn das passiert:
+
+1. Öffne dein Antivirenprogramm (z. B. AVG)
+2. Gehe zu Quarantäne
+3. Stelle die Datei wieder her und füge sie zur Ausnahme hinzu
+
+✅ Du kannst den Code hier auf GitHub einsehen – alles ist Open Source.
 
 
 ---
