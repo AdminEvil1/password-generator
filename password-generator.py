@@ -4,11 +4,11 @@ import random
 while True:
     try:
         laenge = int(input("Wie lange soll das Passwort sein?"))
-        if 0 < laenge <= 12:
+        if 0 < laenge <= 24:
             print("Das Passwort ist mit einer Länge von " + str(laenge) + " in ordnung!")
             break
         else:
-            print("Das ist leider nicht möglich! Maximal 12 Zeichen!")
+            print("Das ist leider nicht möglich! Maximal 24 Zeichen!")
     except ValueError:
         print("Bitte gib eine gültige Zahl ein!")
     
@@ -39,6 +39,8 @@ while True:
         if 0 < anzahl <= 10:
             print(f"Du bekommst {anzahl} verschiedene Passwörter")
             break
+        else:
+            print("Maximal 10 Passwörter!")
     except ValueError:
         print("Das ist leider nicht möglich. Versuche es erneut!")
 
