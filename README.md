@@ -34,6 +34,19 @@ Wenn das passiert:
 
 ✅ Du kannst den Code hier auf GitHub einsehen – alles ist Open Source.
 
+---
+
+## 🧩 Chrome-Erweiterung
+
+Im Ordner `chrome-extension/` findest du eine Version des Passwortgenerators als Chrome-Erweiterung.
+
+### 🔧 Installation:
+1. Öffne `chrome://extensions/`
+2. Aktiviere **Entwicklermodus**
+3. Klicke auf **„Entpackte Erweiterung laden“**
+4. Wähle den Ordner `chrome-extension/` aus dem Projekt
+
+Fertig! Du kannst die Erweiterung nun direkt in Chrome verwenden.
 
 ---
 
