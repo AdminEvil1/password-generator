@@ -12,3 +12,16 @@ document.getElementById("generate").addEventListener("click", () => {
 
   document.getElementById("output").value = pw;
 });
+
+document.getElementById("copy-btn").addEventListener("click", () => {
+  const pwText = document.getElementById("output").value;
+
+  if (!pwText) {
+    // Warnung anzeigen, aber ohne alert-Fenster
+    console.warn("❌ Kein Passwort zum Kopieren!");
+    return;
+  }
+
+  navigator.clipboard.writeText(pwText)
+    .catch(err => console.error("Kopieren fehlgeschlagen:", err));
+});
